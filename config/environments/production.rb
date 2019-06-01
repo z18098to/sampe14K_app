@@ -72,8 +72,11 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   
   ###############################################
-  host = 'rails-tutorial-sample14j-bau.herokuapp.com'
+  #host = 'rails-tutorial-sample14j-bau.herokuapp.com'
   #https://rails-tutorial-sample14j-bau.herokuapp.com/
+  
+  host = 'rails-tutorial-sample14k-bau.herokuapp.com'
+  #https://rails-tutorial-sample14k-bau.herokuapp.com/
   ##############################################
   
   config.action_mailer.default_url_options = { host: host }
